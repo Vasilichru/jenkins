@@ -11,12 +11,12 @@ pipeline {
     stages {
         stage("First step") {
             steps {
-                echo $hostname
+                sh 'echo test'
             }
         }
         stage("Second step") {
             steps {
-                echo uptime
+                sh 'echo uptime'
             }
         }
     }
