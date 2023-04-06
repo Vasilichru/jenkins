@@ -16,7 +16,7 @@ pipeline {
         }
         stage("Second step") {
             steps {
-                sh 'echo uptime'
+                sh 'echo uptime222'
             }
         }
     }
